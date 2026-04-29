@@ -1,4 +1,5 @@
 # 🚀 Agentic Portfolio: From Zero to Creator
+![Hero Image](hero.png)
 ## Ayodeji Erioluwa | Lagos, Nigeria
 
 > "I started with zero coding knowledge. Today, I build autonomous systems, AI-driven intelligence suites, and professional automation tools. This is the power of Agentic Coding."
