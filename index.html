@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Erioluwa Ayodeji — Petroleum Systems Engineer & Solana Rust Developer</title>
+  <meta name="description" content="Portfolio of Erioluwa Ayodeji: Founder of XXII Group, Petroleum Systems Engineer, and Solana Rust / Full-Stack Web3 Developer based in Lagos, Nigeria." />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background Glow & Grid Overlay -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- Main Container -->
+  <div class="app-container">
+    
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <div class="nav-brand">
+        <span class="brand-avatar">⚡</span>
+        <div class="brand-text">
+          <span class="brand-name">Erioluwa Ayodeji</span>
+          <span class="brand-sub">XXII GROUP • LAGOS, NIGERIA</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#projects" class="nav-link active">Projects</a>
+        <a href="#stack" class="nav-link">Architecture & Stack</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#terminal" class="nav-link">Agent Terminal</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com/ayodejierioluwa" target="_blank" rel="noopener noreferrer" class="btn-github">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+        <a href="mailto:ayodejierioluwa@gmail.com" class="btn-primary">Get In Touch</a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-badge">
+        <span class="status-dot"></span>
+        <span>Open for Senior Rust / Solana & Energy AI Opportunities</span>
+      </div>
+
+      <h1 class="hero-title">
+        Engineering High-Speed <span class="gradient-text">Solana Systems</span> & Industrial <span class="gradient-text-alt">Energy AI</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Petroleum Systems Engineer and Full-Stack Solana Rust developer. I bridge high-throughput blockchain infrastructure, consumer Actions & Blinks, and real-time subsurface drilling telemetry.
+      </p>
+
+      <!-- Key Metrics Row -->
+      <div class="metrics-row">
+        <div class="metric-card">
+          <div class="metric-val">7+</div>
+          <div class="metric-label">Production Repositories</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val">$25K+</div>
+          <div class="metric-label">Funding & Grant Pipeline</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val">&lt;400ms</div>
+          <div class="metric-label">Solana Finality / Execution</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val">100%</div>
+          <div class="metric-label">Non-Custodial Architecture</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Filter Bar -->
+    <section class="projects-section" id="projects">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Featured Production Systems</h2>
+          <p class="section-sub">Verified open-source codebases, deployed live applications, and grant-backed protocols.</p>
+        </div>
+
+        <div class="filter-pills" id="filter-pills">
+          <button class="filter-pill active" data-filter="all">All Projects</button>
+          <button class="filter-pill" data-filter="solana">Solana & Web3</button>
+          <button class="filter-pill" data-filter="energy">Energy & Subsurface AI</button>
+          <button class="filter-pill" data-filter="agent">Autonomous Agents</button>
+        </div>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projects-grid">
+        <!-- Injected via JavaScript for rich interactions -->
+      </div>
+    </section>
+
+    <!-- Architecture & Stack Section -->
+    <section class="stack-section" id="stack">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Core Architecture & Tech Stack</h2>
+          <p class="section-sub">Battle-tested tools, frameworks, and programming models across crypto and petroleum engineering.</p>
+        </div>
+      </div>
+
+      <div class="stack-grid">
+        <div class="stack-card">
+          <div class="stack-icon">⚡</div>
+          <h3 class="stack-title">Solana Systems & Rust</h3>
+          <p class="stack-desc">Native SBF smart contracts, Anchor framework, Solana Actions & Blinks (Dialect), State Compression (cNFTs), Solana Pay, and multi-wallet adapters (Phantom, Solflare, Nightly).</p>
+          <div class="stack-tags">
+            <span class="tag">Rust (SBF)</span>
+            <span class="tag">Anchor</span>
+            <span class="tag">Dialect Blinks</span>
+            <span class="tag">cNFTs</span>
+            <span class="tag">Solana Pay</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <div class="stack-icon">🛢️</div>
+          <h3 class="stack-title">Subsurface & Energy AI</h3>
+          <p class="stack-desc">Real-time WITSML and LAS well log telemetry parsing in Rust, drilling hydraulics, wellbore collision avoidance, stuck pipe early warning, and NUPRC regulatory digital twins.</p>
+          <div class="stack-tags">
+            <span class="tag">Rust WITSML Parser</span>
+            <span class="tag">Python AI</span>
+            <span class="tag">Drilling Hydraulics</span>
+            <span class="tag">NUPRC Twin</span>
+            <span class="tag">Geological GIS</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <div class="stack-icon">🛡️</div>
+          <h3 class="stack-title">Agentic AI & Security</h3>
+          <p class="stack-desc">Model Context Protocol (MCP) server integration, prompt-injection isolation sandboxes, automated vulnerability triage, and autonomous multi-agent orchestration.</p>
+          <div class="stack-tags">
+            <span class="tag">Anthropic MCP</span>
+            <span class="tag">Zero-Trust Triage</span>
+            <span class="tag">Gemini Omni</span>
+            <span class="tag">Autonomous Agents</span>
+            <span class="tag">FastAPI</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <div class="stack-icon">🌐</div>
+          <h3 class="stack-title">Full-Stack & Frontend</h3>
+          <p class="stack-desc">High-performance Vanilla HTML5/CSS3/JavaScript, React/TypeScript, Leaflet.js custom dark map rendering, WebSocket telemetry streaming, and serverless edge deployments.</p>
+          <div class="stack-tags">
+            <span class="tag">TypeScript / React</span>
+            <span class="tag">Modern Vanilla JS</span>
+            <span class="tag">Leaflet.js</span>
+            <span class="tag">WebSockets</span>
+            <span class="tag">Vercel / GitHub Pages</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Agent Terminal -->
+    <section class="terminal-section" id="terminal">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Interactive Agent Terminal</h2>
+          <p class="section-sub">Query my background, verify project contracts, or simulate agentic actions in real time.</p>
+        </div>
+      </div>
+
+      <div class="terminal-window">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <div class="terminal-title">erioluwa@xxii-group: ~ (zsh)</div>
+          <div class="terminal-badge">READY</div>
+        </div>
+
+        <div class="terminal-body" id="terminal-body">
+          <div class="terminal-line"><span class="prompt">➜ ~</span> <span class="cmd">welcome</span></div>
+          <div class="terminal-output">
+            Welcome to Erioluwa Ayodeji's Agentic Terminal. Type or click a command below:
+          </div>
+        </div>
+
+        <!-- Quick Command Chips -->
+        <div class="terminal-chips">
+          <button class="chip-btn" data-cmd="skills">skills</button>
+          <button class="chip-btn" data-cmd="projects">projects</button>
+          <button class="chip-btn" data-cmd="grants">grants</button>
+          <button class="chip-btn" data-cmd="contact">contact</button>
+          <button class="chip-btn" data-cmd="clear">clear</button>
+        </div>
+
+        <div class="terminal-input-bar">
+          <span class="prompt">➜ ~</span>
+          <input type="text" id="terminal-input" placeholder="Type a command (e.g. 'projects', 'skills', 'contact')..." autocomplete="off" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="about-card">
+        <div class="about-content">
+          <h2 class="section-title">About Erioluwa</h2>
+          <p class="about-p">
+            I am a Petroleum Systems Engineer and Full-Stack Web3 Developer based in Lagos, Nigeria. As the founder of <strong>XXII Group</strong>, I build solutions at the intersection of high-stakes industrial systems and censorship-resistant global finance.
+          </p>
+          <p class="about-p">
+            Nigeria ranks #2 globally in crypto adoption, yet millions of youth remain chained to failing domestic banking rails and high transaction friction. By harnessing Solana's 400ms finality, sub-cent state compression, and social Blinks, I build consumer applications that transform how African youth earn, spend, and discover locally.
+          </p>
+          <div class="about-links">
+            <a href="mailto:ayodejierioluwa@gmail.com" class="btn-primary">Email Me</a>
+            <a href="https://github.com/ayodejierioluwa" target="_blank" rel="noopener noreferrer" class="btn-secondary">Explore GitHub</a>
+            <a href="https://x.com/ayodejierioluwa" target="_blank" rel="noopener noreferrer" class="btn-secondary">Follow on X</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-left">
+        <span>© 2026 Erioluwa Ayodeji • Built with Antigravity AI</span>
+      </div>
+      <div class="footer-right">
+        <a href="https://github.com/ayodejierioluwa" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://x.com/ayodejierioluwa" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+        <a href="mailto:ayodejierioluwa@gmail.com">Contact</a>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
